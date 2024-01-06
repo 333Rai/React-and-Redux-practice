@@ -1,0 +1,18 @@
+#header {
+   padding: 20px 0;
+   background-color: #fff;
+}
+.header {
+   display: flex;
+   justify-content: center;
+}
+.header__nav {
+   width: 303px;
+   display: flex;
+   justify-content: space-between;
+}
+.header__nav a {
+   text-transform: capitalize;
+   font-weight: bold;
+   color: #202020;
+}

@@ -1,0 +1,63 @@
+#create {
+   padding: 44px 0;
+}
+.create {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.create__title-button {
+   margin-bottom: 55px;
+   background-color: teal;
+   text-transform: uppercase;
+}
+.create__wrapper {
+   width: 333px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   background-color: #fff;
+   box-shadow: 3px 3px 55px #000;
+   border-radius: 20px;
+   position: relative;
+}
+.create__close-icon {
+   position: absolute;
+   top: -10px;
+   right: 0;
+   color: white;
+}
+.create__inputs-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 25px;
+}
+.create__input {
+   width: 230px;
+   padding: 10px 25px;
+   background-color: rgb(185, 185, 185);
+   border-radius: 5px;
+   font-family: "Raleway", sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   box-shadow: 1px 1px 10px #000;
+}
+.create__input:focus {
+   background: none;
+   box-shadow: 3px 5px 33px #000;
+}
+.create__input::placeholder {
+   font-size: 12px;
+   font-weight: 500;
+}
+.create__button {
+   background-color: navy;
+}
+.create__button:hover {
+   background-color: rgb(4, 4, 142);
+}
